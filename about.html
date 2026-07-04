@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About | Dell Constructions</title>
+<meta name="description" content="Dell Constructions is a Sydney-based custom and family home builder. Learn about our story, values and build process.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;700&family=Work+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container">
+    <a href="index.html" class="logo">DELL <span>CONSTRUCTIONS</span></a>
+    <nav class="main-nav">
+      <a href="index.html">Home</a>
+      <a href="about.html" class="active">About</a>
+      <a href="index.html#gallery">Gallery</a>
+      <a href="index.html#reviews">Reviews</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <button class="nav-toggle" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<section class="page-header">
+  <div class="container">
+    <p class="eyebrow">// About us</p>
+    <h1>Built on trust, not shortcuts.</h1>
+  </div>
+</section>
+
+<section class="about-story">
+  <div class="container">
+    <div>
+      <p class="eyebrow">// Our story</p>
+      <h2>Why we started Dell Constructions</h2>
+      <p>Dell Constructions was started with one goal: build homes the way we'd want built for our own family. That means being upfront about cost and timelines, using tradespeople we trust, and staying involved from the first sketch to the day you get the keys.</p>
+      <p>We work across Sydney on both custom architectural builds and straightforward family homes, and every project gets the same level of attention regardless of size.</p>
+    </div>
+    <div>
+      <p class="eyebrow">// What matters to us</p>
+      <div class="values-grid" style="grid-template-columns:1fr; gap:20px;">
+        <div class="value-card">
+          <h3>Straight answers</h3>
+          <p>No surprise costs. If something changes, you hear about it from us before it shows up on an invoice.</p>
+        </div>
+        <div class="value-card">
+          <h3>Real quality</h3>
+          <p>We build to last, not just to pass inspection. Materials and trades are chosen on quality, not just price.</p>
+        </div>
+        <div class="value-card">
+          <h3>You're kept in the loop</h3>
+          <p>Regular updates through the build so you always know exactly where things stand.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="process">
+  <div class="container">
+    <p class="eyebrow">// How a build works</p>
+    <h2>Our process</h2>
+    <div class="process-steps">
+      <div class="process-step">
+        <div class="num">01</div>
+        <h3>Consult</h3>
+        <p>We visit your site, talk through your budget and what you need from the home.</p>
+      </div>
+      <div class="process-step">
+        <div class="num">02</div>
+        <h3>Design</h3>
+        <p>Plans are drawn up and refined with you until they're exactly right, then submitted for approval.</p>
+      </div>
+      <div class="process-step">
+        <div class="num">03</div>
+        <h3>Build</h3>
+        <p>Construction begins, with regular updates so you always know what stage the build is at.</p>
+      </div>
+      <div class="process-step">
+        <div class="num">04</div>
+        <h3>Handover</h3>
+        <p>Final walkthrough, any finishing touches sorted, then the keys are yours.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="cta-band">
+  <div class="container">
+    <h2>Have a block and an idea?</h2>
+    <a href="contact.html" class="btn-primary">Let's talk</a>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <a href="index.html" class="logo">DELL <span>CONSTRUCTIONS</span></a>
+        <p style="margin-top:14px; opacity:0.75; max-width:32ch;">Custom and family home builders, based in Sydney.</p>
+      </div>
+      <div>
+        <h4>Site</h4>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <a href="tel:0000000000">0000 000 000</a>
+        <a href="mailto:info@dellconstructions.com.au">info@dellconstructions.com.au</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span id="year"></span> Dell Constructions. All rights reserved.</span>
+      <span>Sydney, NSW</span>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+<script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+</html>
